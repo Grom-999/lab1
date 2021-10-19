@@ -102,7 +102,7 @@ void T5()
 
     unsigned short int q = (!e|d)&c^f;
 
-    std::cout << "result  : " << std::hex << std::showbase << std::setw(4) << std::setfill('0') << q << std::endl;
+    std::cout << "result  : " << std::hex << std::showbase<< std::internal << std::setw(6) << std::setfill('0') << q << std::endl;
 
 
 }
